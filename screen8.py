@@ -1334,7 +1334,7 @@ class results:
 
 		final_infection, final_cancer, final_CV, final_other, final_vaccine = assigner(raw_results) # Runs assigner, which toggles True for indicated screenings/vaccinations
 
-		print final_CV, final_cancer, final_infection, final_other, final_vaccine
+		#print final_CV, final_cancer, final_infection, final_other, final_vaccine
 
 		text1 = infection_texter(basic_text, final_infection, text_dict) # Split up text assigners into multiple functions
 

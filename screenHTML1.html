@@ -1,0 +1,66 @@
+$def with (form1, form2, form3, form4, form5, form6, form7)
+
+<html>
+
+	<head>
+
+		<title>Harborview Adult Medicine Screening Tool</title>
+
+	</head>
+
+<body>
+
+	<h1>Harborview Adult Medicine Clinic Screening Efficiency Tool</h1>
+
+	<h2>Please enter the following information about your patient.</h2>
+
+	<em>*This website is focused on internal medicine and does not take into screening recommendations in pregnancy, children or newborns.</em>
+
+	<br>
+
+	<br>
+
+	<form name="test" method="POST">
+
+	$if not form1.valid: <p>Sorry, your input was invalid.</p>
+
+	$:form1.render()
+
+	
+
+	$:form2.render()
+
+	
+
+	$:form3.render()
+
+
+
+	$:form4.render()
+
+	$:form5.render()
+
+	$:form6.render()
+
+	$:form7.render()
+
+	
+
+	<br>
+
+	<input type="submit" value="Submit" />
+
+
+
+	</form>
+
+
+
+	Questions, comments, concerns? <br>
+
+	Email jp3@uw.edu
+
+</body>
+
+</html>
+
